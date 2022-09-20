@@ -1,13 +1,24 @@
 .Row {
-  color: #fff;
+  background-color: #000;
+  padding-top: 20px;
   &-posters {
     display: flex;
     overflow-y: hidden;
     overflow-x: scroll;
-    padding: 20px;
+    padding: 0px 100px 20px 100px;
     &::-webkit-scrollbar {
       display: none;
     }
+  }
+  &-title {
+    color: #db202c;
+    background-color: black;
+    text-align: left;
+    padding-left: 100px;
+  }
+  &-title h2 {
+    margin: 0px 10px;
+    font-family: BebasNeue;
   }
   &-poster {
     object-fit: contain;

@@ -62,7 +62,9 @@ export const Row = ({ title, fetchUrl, isLargeRow }: Props) => {
 
   return (
     <div className="Row">
-      <h2>{title}</h2>
+      <div className="Row-title">
+        <h2>{title}</h2>
+      </div>
       <div className="Row-posters">
         {/* ポスターコンテンツ */}
         {movies.map((movie, i) => (
